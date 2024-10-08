@@ -7,6 +7,7 @@ from .models import ( CarStatus, Car, Brand, CarModel, FuelTypeChoices, Transmis
     SeatCountChoices, OwnerCount, YearChoices, Mileage, MoneyCurrencies,
     TransmissionType, ImageCar, Profile
 )
+# Create your forms here.
 
 class CarForm(forms.ModelForm):
     class Meta:
